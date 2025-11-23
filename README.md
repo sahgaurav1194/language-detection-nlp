@@ -52,8 +52,10 @@ language-detection/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+
+git clone https://github.com/sahgaurav1194/language-detection-nlp.git
+cd language-detection-nlp
+
 ```
 
 Install dependencies:
