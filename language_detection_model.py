@@ -33,8 +33,6 @@ X= cv.fit_transform(x)
 
 X_train, X_test,y_train,y_test=train_test_split(X,y,test_size=0.33,random_state=42)
 
-print(X_train)
-
 model= MultinomialNB()
 
 model.fit(X_train,y_train)
@@ -42,6 +40,6 @@ model.fit(X_train,y_train)
 model.score(X_test,y_test)
 
 user = input("Enter a text")
-data=cv.transform([user]).toarray()
-output=model.predict(data)
+data_point = cv.transform([user])
+output=model.predict(data_point)
 print(output)
